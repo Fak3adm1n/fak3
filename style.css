@@ -25,3 +25,11 @@ a {
   overflow: hidden;
   animation: 1s typing steps(10 , jump-none) forwards;
 }
+@keyframes typing {
+  form {
+    width: 1ch;
+  }
+  to {
+    width: 24ch;
+  }
+}
