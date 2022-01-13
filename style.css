@@ -2,6 +2,10 @@
   text-align: center;
   margin: 0px;
 }
+li {
+  list-style-type: none;
+  margin: 10px;
+}
 a {
   color: rgb(251,164,20);
 }
@@ -20,12 +24,4 @@ a {
   width: 1ch;
   overflow: hidden;
   animation: 1s typing steps(10 , jump-none) forwards;
-}
-@keyframes typing {
-  form {
-    width: 1ch;
-  }
-  to {
-    width: 24ch;
-  }
 }
